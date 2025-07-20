@@ -1,7 +1,26 @@
 body {
   font-family: Roboto, Raleway, sans-serif;
-  color: #
-  background-color: #;
+  color: #2e2f42;
+  background-color: #fff;
 } 
+
+a {
+  text-decoration: none;
+}
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: #4D5AE5;
+}
+
+.logo-studio {
+  color: #2E2F42;
+}
 
 
