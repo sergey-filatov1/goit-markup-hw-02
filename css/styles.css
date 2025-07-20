@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #2e2f42;
   background-color: #fff;
 } 
@@ -7,7 +7,29 @@ body {
 a {
   text-decoration: none;
 }
+a:hover, a:focus {
+  color: #2E2F42;
+}
 
+h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+
+}
 .logo{
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -17,10 +39,12 @@ a {
 
 .logo-web {
   color: #4D5AE5;
+  text-decoration: none;
 }
 
 .logo-studio {
   color: #2E2F42;
+  text-decoration: none;
 }
 
 
